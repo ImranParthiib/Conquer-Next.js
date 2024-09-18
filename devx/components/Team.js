@@ -4,18 +4,18 @@ import Image from "next/image";
 const teamMembers = [
   {
     name: "Imran Parthib",
-    role: "CEO",
+    role: "KAMLA",
     imageUrl: "/images/imranParthib.png",
   },
   {
-    name: "Mamunur Rashid",
+    name: "Towhidul Islam",
     role: "CTO",
-    imageUrl: "/images/mamun.jfif",
+    imageUrl: "/images/towhidulIslam.jpg",
   },
   {
-    name: "Imran Parthib",
+    name: "Rakibul Islam Anas",
     role: "Lead Developer",
-    imageUrl: "/images/imranParthib.png",
+    imageUrl: "/images/rakibulAnas.jfif",
   },
 ];
 

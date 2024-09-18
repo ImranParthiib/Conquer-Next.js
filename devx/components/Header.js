@@ -72,7 +72,7 @@ const Header = () => {
           </div>
         </div>
       </header>
-      <hr className="border-gray-700" />
+      <hr className="border-sky-700" />
     </>
   );
 };
