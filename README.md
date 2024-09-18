@@ -77,13 +77,36 @@ If you're new to Next.js, this project is a practical learning resource. You can
 ## Project Structure
 
 ```bash
-├── components/ # Reusable React components
-├── pages/ # Next.js pages (includes routing)
-├── public/ # Public assets like images
-├── styles/ # TailwindCSS styles
-├── utils/ # Utility functions and custom hooks
-├── README.md # Project documentation
-└── package.json # Project dependencies and scripts
+project-root/
+│
+├── app/
+│   ├── fonts/
+│   ├── favicon.ico
+│   ├── globals.css
+│   ├── layout.js
+│   └── page.js
+│
+├── components/
+│   ├── Banner.js
+│   ├── Footer.js
+│   ├── Header.js
+│   ├── Services.js
+│   └── Team.js
+│
+├── node_modules/
+│
+├── public/
+│
+├── .eslintrc.json
+├── .gitignore
+├── jsconfig.json
+├── next.config.mjs
+├── package-lock.json
+├── package.json
+├── postcss.config.mjs
+├── README.md
+├── tailwind.config.js
+
 ```
 
 ## Contributing
